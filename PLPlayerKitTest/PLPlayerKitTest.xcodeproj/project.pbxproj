@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1208D64BF472B3F5FBFDBAE0 /* Pods_PLPlayerKitTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A5F93E12DEE1DCE973785 /* Pods_PLPlayerKitTestTests.framework */; };
 		16CEEF69B12DE359762B3FD9 /* Pods_PLPlayerKitTest_PLPlayerKitTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA7A01C2C5A0F852C3D1501 /* Pods_PLPlayerKitTest_PLPlayerKitTestUITests.framework */; };
+		36720A6624B4641100643C96 /* FFT.m in Sources */ = {isa = PBXBuildFile; fileRef = 36720A6524B4641100643C96 /* FFT.m */; };
+		36720A6924B467F200643C96 /* SpectrumScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36720A6724B467F200643C96 /* SpectrumScrollView.m */; };
 		36F5773224B41DB5002567EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5773124B41DB5002567EE /* AppDelegate.m */; };
 		36F5773524B41DB5002567EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5773424B41DB5002567EE /* SceneDelegate.m */; };
 		36F5773824B41DB5002567EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5773724B41DB5002567EE /* ViewController.m */; };
@@ -41,6 +43,10 @@
 /* Begin PBXFileReference section */
 		1FB611A336ADEDADE3B17BA4 /* Pods-PLPlayerKitTest-PLPlayerKitTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLPlayerKitTest-PLPlayerKitTestUITests.release.xcconfig"; path = "Target Support Files/Pods-PLPlayerKitTest-PLPlayerKitTestUITests/Pods-PLPlayerKitTest-PLPlayerKitTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		26DE4353BA393937E6289698 /* Pods-PLPlayerKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLPlayerKitTest.debug.xcconfig"; path = "Target Support Files/Pods-PLPlayerKitTest/Pods-PLPlayerKitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		36720A6424B4641100643C96 /* FFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFT.h; sourceTree = "<group>"; };
+		36720A6524B4641100643C96 /* FFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFT.m; sourceTree = "<group>"; };
+		36720A6724B467F200643C96 /* SpectrumScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpectrumScrollView.m; sourceTree = "<group>"; };
+		36720A6824B467F200643C96 /* SpectrumScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectrumScrollView.h; sourceTree = "<group>"; };
 		36F5772D24B41DB5002567EE /* PLPlayerKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLPlayerKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F5773024B41DB5002567EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36F5773124B41DB5002567EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,7 +112,6 @@
 				4360B7EDDB6A717744D7B046 /* Pods-PLPlayerKitTestTests.debug.xcconfig */,
 				DC91F32B9416B46DEB0E0C6E /* Pods-PLPlayerKitTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +156,10 @@
 				36F5773424B41DB5002567EE /* SceneDelegate.m */,
 				36F5773624B41DB5002567EE /* ViewController.h */,
 				36F5773724B41DB5002567EE /* ViewController.m */,
+				36720A6424B4641100643C96 /* FFT.h */,
+				36720A6524B4641100643C96 /* FFT.m */,
+				36720A6824B467F200643C96 /* SpectrumScrollView.h */,
+				36720A6724B467F200643C96 /* SpectrumScrollView.m */,
 				36F5773924B41DB5002567EE /* Main.storyboard */,
 				36F5773C24B41DB6002567EE /* Assets.xcassets */,
 				36F5773E24B41DB6002567EE /* LaunchScreen.storyboard */,
@@ -416,6 +425,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F5773824B41DB5002567EE /* ViewController.m in Sources */,
+				36720A6624B4641100643C96 /* FFT.m in Sources */,
+				36720A6924B467F200643C96 /* SpectrumScrollView.m in Sources */,
 				36F5773224B41DB5002567EE /* AppDelegate.m in Sources */,
 				36F5774324B41DB6002567EE /* main.m in Sources */,
 				36F5773524B41DB5002567EE /* SceneDelegate.m in Sources */,
