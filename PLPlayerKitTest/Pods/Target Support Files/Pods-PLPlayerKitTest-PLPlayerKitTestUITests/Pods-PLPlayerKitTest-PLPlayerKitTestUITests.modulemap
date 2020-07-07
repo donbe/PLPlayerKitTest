@@ -1,0 +1,6 @@
+framework module Pods_PLPlayerKitTest_PLPlayerKitTestUITests {
+  umbrella header "Pods-PLPlayerKitTest-PLPlayerKitTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
